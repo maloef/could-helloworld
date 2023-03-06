@@ -10,6 +10,7 @@
       "repositoryCredentials": {
         "credentialsParameter": ""
       },
+      "requires_compatibilities": ["FARGATE"],
       "cpu": 256,
       "memory": 512,
       "memoryReservation": 256,
