@@ -1,6 +1,11 @@
 name: Deploy to AWS
 
-on: [push]
+env:
+  AWS_REGION: eu-central-1
+
+on:
+  push:
+    branches: [master]
 #on:
 #  push:
 #    branches: [ $default-branch ]
