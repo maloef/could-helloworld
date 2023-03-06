@@ -3,7 +3,6 @@
   "taskRoleArn": "arn:aws:iam::818222958857:role/ecsTaskExecutionRole",
   "executionRoleArn": "arn:aws:iam::818222958857:role/ecsTaskExecutionRole",
   "networkMode": "awsvpc",
-  "requires_compatibilities": ["FARGATE"],
   "containerDefinitions": [
     {
       "name": "HelloWorld",
