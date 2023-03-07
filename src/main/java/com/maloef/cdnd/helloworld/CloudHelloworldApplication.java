@@ -18,7 +18,7 @@ public class CloudHelloworldApplication {
 
 	@GetMapping("/hello")
 	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-		return String.format("Hello %s, key is %s", name, awsKey);
+		return String.format("Helloooooooo %s, key: %s", name, awsKey);
 	}
 
 	public static void main(String[] args) {

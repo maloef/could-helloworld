@@ -1,0 +1,25 @@
+{
+  "ServiceName": "cloud-helloworld",
+  "SourceConfiguration": {
+    "AuthenticationConfiguration": {
+      "AccessRoleArn": "arn:aws:iam::818222958857:role/ecrAccessRole"
+    },
+    "AutoDeploymentsEnabled": true,
+    "ImageRepository": {
+      "ImageIdentifier": "818222958857.dkr.ecr.eu-central-1.amazonaws.com/cloud-helloworld-repo:latest",
+      "ImageConfiguration": {
+        "Port": "8080",
+        "RuntimeEnvironmentVariables": {
+          "AWS_REGION": "eu-central-1",
+          "AWS_ACCESS_KEY_ID": "AKIA35APDREERUO7WBXR",
+          "AWS_SECRET_ACCESS_KEY": "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"
+        }
+      },
+      "ImageRepositoryType": "ECR"
+    }
+  },
+  "InstanceConfiguration": {
+    "Cpu": "1 vCPU",
+    "Memory": "2048"
+  }
+}
