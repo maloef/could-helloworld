@@ -2,7 +2,9 @@ cloud:
   aws:
     credentials:
       access-key: ${AWS_ACCESS_KEY_ID}
-      secret-key: ${AWS_SECRET_ACCESS_KEY}
+      secret-key:  ${AWS_SECRET_ACCESS_KEY}
     region:
-      static: ${AWS_REGION}
-      auto: false
+      auto: true
+
+s3:
+  image-bucket: cloud-helloworld-818222958857
